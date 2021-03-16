@@ -1,0 +1,45 @@
+@font-face{
+    font-family: roboto;
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+body{
+    font-family: roboto;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    text-transform: uppercase;
+    text-align: center;
+}
+.wrapper h1{
+    margin-bottom: 15px;
+    font-size: 3rem;
+}
+.wrapper p{
+    font-size: 55px;
+    margin-bottom: 25px;
+}
+button{
+    font-size: 1rem;
+    border: none;
+    border-radius:5px;
+    color: #fff;
+    padding: 15px 35px;
+    outline: none;
+    background: rgba(255, 13, 86, 1);
+    background: -moz-linear-gradient(left, rgba(255, 13, 86, 1) 0%, rgba(255, 2, 61, 1) 100%);
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: box-shadow 0.3s ease-in-out;
+}
+button:hover{
+    box-shadow: 0 4px 14px rgb(255 13 86 / 90%);
+}
